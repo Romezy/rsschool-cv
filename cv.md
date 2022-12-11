@@ -33,6 +33,7 @@ None
 ## Education
 St.Petersburg State University of Architecture and Civil Engineering (Bachelor's degree, specialty Economics in Construction)
 * Courses:
+  * YouTube Courses
   * FreeCodeCamp
   * Udemy
 
