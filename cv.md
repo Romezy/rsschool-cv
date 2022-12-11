@@ -13,6 +13,7 @@ I want to develop as a JavaScript developer. It would be great to find a team of
 * SCSS
 * GULP
 * JS
+* JQuery
 * Git
 * GitHub
 * Visual Studio Code
