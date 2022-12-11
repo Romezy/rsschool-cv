@@ -26,7 +26,6 @@ I want to develop as a JavaScript developer. It would be great to find a team of
 function sum(a, b) {
   return a + b;
 }
-
 ```
 ## Experience
 None
