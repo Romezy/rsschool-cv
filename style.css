@@ -9,3 +9,11 @@
 h1 {
   color: red;
 }
+
+h2 {
+  color: green;
+}
+
+a {
+  color: inherit;
+}
