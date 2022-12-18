@@ -160,7 +160,9 @@ body {
 .skills,
 .code-example,
 .projects,
-.experience {
+.experience,
+.education,
+.languages {
   padding: 20px 40px;
   background-color: #212125;
   border-radius: 24px;
@@ -171,7 +173,9 @@ body {
 .skills__title,
 .code-example__title,
 .projects__title,
-.experience__title {
+.experience__title,
+.education__title,
+.languages__title {
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 900;
@@ -211,4 +215,21 @@ body {
 
 .experience__item:not(:last-child) {
   margin-bottom: 15px;
+}
+
+.education__list {
+  list-style: none;
+  max-width: 557px;
+}
+
+.education__item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.languages__list {
+  padding-left: 20px;
+}
+
+.languages__item:not(:last-child) {
+  margin-bottom: 10px;
 }
