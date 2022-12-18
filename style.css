@@ -149,3 +149,43 @@ body {
 .menu__link:hover {
   color: #ffbfbf;
 }
+
+.main {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.about-me,
+.skills {
+  padding: 20px 40px;
+  background-color: #212125;
+  border-radius: 24px;
+  margin-bottom: 40px;
+}
+
+.about-me__title,
+.skills__title {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.skills__list {
+  max-width: 400px;
+  list-style: none;
+  columns: 2;
+  column-fill: auto;
+}
+
+.skills__item {
+  display: flex;
+  position: relative;
+  padding-left: 25px;
+}
+
+.skills__item:before {
+  content: "#";
+  position: absolute;
+  left: 0px;
+}
