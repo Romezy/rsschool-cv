@@ -5,13 +5,191 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV</title>
+  <title>CV Roman Lutsenko</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="./assets/favicon.ico">
   <link rel="stylesheet" href="style.css">
 </head>
 
-  <body>
-    <h1>Hello</h1>
-    <h2>Everyone</h2>
-  </body>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__inner">
+        <div class="header__left">
+          <img class="header__image" src="./assets/img/avatar.jpg" alt="my photo">
+          <div class="header__info">
+            <h1 class="header__title">Roman Lutsenko</h1>
+            <p class="header__subtitle">Front-End Developer</p>
+          </div>
+        </div>
+        <div class="header__right">
+          <ul class="contacts-heading">
+            <li class="contacts-heading__item">
+              <p class="contacts-heading__text">Location</p>
+            </li>
+            <li class="contacts-heading__item">
+              <p class="contacts-heading__text">Telegram</p>
+            </li>
+            <li class="contacts-heading__item">
+              <p class="contacts-heading__text">E-mail</p>
+            </li>
+            <li class="contacts-heading__item">
+              <p class="contacts-heading__text">GitHub</p>
+            </li>
+            <li class="contacts-heading__item">
+              <p class="contacts-heading__text">Discord</p>
+            </li>
+          </ul>
+          <ul class="contacts-info">
+            <li class="contacts-info__item">
+              <a class="contacts-info__link" href="#" target="_blank">St. Petersburg, Russia</a>
+            </li>
+            <li class="contacts-info__item">
+              <a class="contacts-info__link" href="https://t.me/Romezy23" target="_blank">t.me/Romezy23</a>
+            </li>
+            <li class="contacts-info__item">
+              <a class="contacts-info__link" href="mailto:its.roman.lutsenko@gmail.com"
+                target="_blank">its.roman.lutsenko@gmail.com</a>
+            </li>
+            <li class="contacts-info__item">
+              <a class="contacts-info__link" href="https://github.com/Romezy" target="_blank">Romezy</a>
+            </li>
+            <li class="contacts-info__item">
+              <a class="contacts-info__link" href="#" target="_blank">Romezy#6832</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="#about-section">about me</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#skills-section">skills</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#code-section">code example</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#projects-section">projects</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#exp-section">experience</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#edu-section">education</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#lang-section">languages</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="about-me" id="about-section">
+        <h2 class="about-me__title">about me</h2>
+        <p class="about-me__text">
+          I want to develop as a JavaScript developer. It would be great to find a team of
+          experienced specialists and develop under their guidance.<br>
+          I like to solve complex and interesting tasks, fully immerse myself in the production process.
+        </p>
+      </section>
+      <section class="skills" id="skills-section">
+        <h2 class="skills__title">skills</h2>
+        <ul class="skills__list">
+          <li class="skills__item">
+            <p class="skills__text">Html</p>
+          </li>
+          <li class="skills__item">
+            <p class="skills__text">Css</p>
+          </li>
+          <li class="skills__item">
+            <p class="skills__text">Scss</p>
+          </li>
+          <li class="skills__item">
+            <p class="skills__text">Gulp</p>
+          </li>
+          <li class="skills__item">
+            <p class="skills__text">JavaScript</p>
+          </li>
+          <li class="skills__item">
+            <p class="skills__text">JQuery</p>
+          </li>
+          <li class="skills__item">
+            <p class="skills__text">Git</p>
+          </li>
+          <li class="skills__item">
+            <p class="skills__text">Chrome DevTools</p>
+          </li>
+        </ul>
+      </section>
+      <section class="code-example" id="code-section">
+        <h2 class="code-example__title">Code Example</h2>
+        <pre>
+        <code class="code-example__content">
+          function sum(a, b) {
+            return a + b;
+          }
+        </code>
+        </pre>
+      </section>
+      <section class="projects" id="projects-section">
+        <h2 class="projects__title">projects</h2>
+        <a class="projects__link" href="https://github.com/Romezy/rsschool-cv" target="_blank">RS School CV</a>
+      </section>
+      <section class="experience" id="exp-section">
+        <h2 class="experience__title">Experience</h2>
+        <ul class="experience__list">
+          <li class="experience__item">
+            <p class="experience__text">LANTER - storekeeper-engineer, 2019-2021</p>
+          </li>
+          <li class="experience__item">
+            <p class="experience__text">Individual entrepreneurship, 2021-Present</p>
+          </li>
+        </ul>
+      </section>
+      <section class="education" id="edu-section">
+        <h2 class="education__title">Education</h2>
+        <ul class="education__list">
+          <li class="education__item">
+            <p class="education__text">St. Petersburg State University of Architecture and Civil Engineering (BA
+              Economics in Construction, 2019)</p>
+          </li>
+          <li class="education__item">
+            <p class="education__text">Free Code Camp</p>
+          </li>
+          <li class="education__item">
+            <p class="education__text">YouTube Courses</p>
+          </li>
+          <li class="education__item">
+            <p class="education__text">Udemy</p>
+          </li>
+        </ul>
+      </section>
+      <section class="languages" id="lang-section">
+        <h2 class="languages__title">Languages</h2>
+        <ul class="languages__list">
+          <li class="languages__item">
+            <p class="languages__text">Russian - Native</p>
+          </li>
+          <li class="languages__item">
+            <p class="languages__text">English - A2</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__info">&#169; 2022,
+        <a href="https://github.com/Romezy" target="_blank">My GitHub Profile</a>
+      </p>
+      <a class="footer__logo" href="https://rs.school/js/" target="_blank">
+        <img src="./assets/svg/rs_school_logo.svg" alt="logo rsschool">
+      </a>
+    </footer>
+  </div>
+</body>
 
 </html>
