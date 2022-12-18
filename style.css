@@ -12,6 +12,7 @@ h1,
 h2,
 h3,
 p,
+pre,
 ul {
   margin: 0;
   padding: 0;
@@ -156,7 +157,10 @@ body {
 }
 
 .about-me,
-.skills {
+.skills,
+.code-example,
+.projects,
+.experience {
   padding: 20px 40px;
   background-color: #212125;
   border-radius: 24px;
@@ -164,7 +168,10 @@ body {
 }
 
 .about-me__title,
-.skills__title {
+.skills__title,
+.code-example__title,
+.projects__title,
+.experience__title {
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 900;
@@ -188,4 +195,20 @@ body {
   content: "#";
   position: absolute;
   left: 0px;
+}
+
+.projects__link {
+  transition: color 0.5s ease-in-out;
+}
+
+.projects__link:hover {
+  color: #ffbfbf;
+}
+
+.experience__list {
+  list-style: none;
+}
+
+.experience__item:not(:last-child) {
+  margin-bottom: 15px;
 }
